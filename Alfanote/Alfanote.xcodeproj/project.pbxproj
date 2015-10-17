@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C0FBC861940C289003A97DF /* ANUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0FBC851940C289003A97DF /* ANUtility.m */; };
+		6C0FBC891940C2A6003A97DF /* ANConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0FBC881940C2A6003A97DF /* ANConstants.m */; };
+		6C0FBC8E1940C675003A97DF /* ANLeftMainMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0FBC8D1940C675003A97DF /* ANLeftMainMenuVC.m */; };
+		6C2C70751942138B00DFFEF9 /* ANLeftMainMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2C70731942138B00DFFEF9 /* ANLeftMainMenuTableViewCell.m */; };
+		6C2C70761942138B00DFFEF9 /* ANLeftMainMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2C70741942138B00DFFEF9 /* ANLeftMainMenuTableViewCell.xib */; };
+		6C2C70791942240A00DFFEF9 /* LeftMainMenu.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C2C70781942240A00DFFEF9 /* LeftMainMenu.xcassets */; };
+		6CE2D960193F6E05006627CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE2D95F193F6E05006627CF /* Foundation.framework */; };
+		6CE2D962193F6E05006627CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE2D961193F6E05006627CF /* CoreGraphics.framework */; };
+		6CE2D964193F6E05006627CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE2D963193F6E05006627CF /* UIKit.framework */; };
+		6CE2D96C193F6E05006627CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE2D96B193F6E05006627CF /* main.m */; };
+		6CE2D982193F6E05006627CF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE2D981193F6E05006627CF /* XCTest.framework */; };
+		6CE2D983193F6E05006627CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE2D95F193F6E05006627CF /* Foundation.framework */; };
+		6CE2D984193F6E05006627CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE2D963193F6E05006627CF /* UIKit.framework */; };
+		6CE2D98C193F6E05006627CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CE2D98A193F6E05006627CF /* InfoPlist.strings */; };
+		6CE2D98E193F6E05006627CF /* AlfanoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE2D98D193F6E05006627CF /* AlfanoteTests.m */; };
+		6CE2D9A5193F6E87006627CF /* ANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE2D999193F6E87006627CF /* ANAppDelegate.m */; };
+		6CE2D9A9193F6E87006627CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CE2D9A2193F6E87006627CF /* InfoPlist.strings */; };
+		6CE2D9AA193F6E87006627CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE2D9A4193F6E87006627CF /* Images.xcassets */; };
+		6CE2D9B5193F76DF006627CF /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE2D9AD193F76DF006627CF /* MMDrawerBarButtonItem.m */; };
+		6CE2D9B6193F76DF006627CF /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE2D9B0193F76DF006627CF /* MMDrawerController.m */; };
+		6CE2D9B7193F76DF006627CF /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE2D9B2193F76DF006627CF /* MMDrawerVisualState.m */; };
+		6CE2D9B8193F76DF006627CF /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE2D9B4193F76DF006627CF /* UIViewController+MMDrawerController.m */; };
+		6CE2D9BF193F7EE9006627CF /* ANLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE2D9BE193F7EE9006627CF /* ANLoginViewController.m */; };
+		6CE2D9C3193F80D7006627CF /* ANDrawerBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE2D9C2193F80D7006627CF /* ANDrawerBaseVC.m */; };
+		6CE2D9C7193F9218006627CF /* MMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE2D9C6193F9218006627CF /* MMNavigationController.m */; };
+		6CE2D9CA193F9232006627CF /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE2D9C9193F9232006627CF /* MMExampleDrawerVisualStateManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CE2D985193F6E05006627CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CE2D954193F6E05006627CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CE2D95B193F6E05006627CF;
+			remoteInfo = Alfanote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C0FBC841940C289003A97DF /* ANUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANUtility.h; sourceTree = "<group>"; };
+		6C0FBC851940C289003A97DF /* ANUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANUtility.m; sourceTree = "<group>"; };
+		6C0FBC871940C2A6003A97DF /* ANConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANConstants.h; sourceTree = "<group>"; };
+		6C0FBC881940C2A6003A97DF /* ANConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANConstants.m; sourceTree = "<group>"; };
+		6C0FBC8C1940C675003A97DF /* ANLeftMainMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANLeftMainMenuVC.h; sourceTree = "<group>"; };
+		6C0FBC8D1940C675003A97DF /* ANLeftMainMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANLeftMainMenuVC.m; sourceTree = "<group>"; };
+		6C2C70721942138B00DFFEF9 /* ANLeftMainMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANLeftMainMenuTableViewCell.h; sourceTree = "<group>"; };
+		6C2C70731942138B00DFFEF9 /* ANLeftMainMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANLeftMainMenuTableViewCell.m; sourceTree = "<group>"; };
+		6C2C70741942138B00DFFEF9 /* ANLeftMainMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANLeftMainMenuTableViewCell.xib; sourceTree = "<group>"; };
+		6C2C70781942240A00DFFEF9 /* LeftMainMenu.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LeftMainMenu.xcassets; sourceTree = "<group>"; };
+		6CE2D95C193F6E05006627CF /* Alfanote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alfanote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE2D95F193F6E05006627CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6CE2D961193F6E05006627CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6CE2D963193F6E05006627CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6CE2D967193F6E05006627CF /* Alfanote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Alfanote-Info.plist"; sourceTree = "<group>"; };
+		6CE2D96B193F6E05006627CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CE2D96D193F6E05006627CF /* Alfanote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alfanote-Prefix.pch"; sourceTree = "<group>"; };
+		6CE2D980193F6E05006627CF /* AlfanoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlfanoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE2D981193F6E05006627CF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6CE2D989193F6E05006627CF /* AlfanoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlfanoteTests-Info.plist"; sourceTree = "<group>"; };
+		6CE2D98B193F6E05006627CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CE2D98D193F6E05006627CF /* AlfanoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlfanoteTests.m; sourceTree = "<group>"; };
+		6CE2D998193F6E87006627CF /* ANAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANAppDelegate.h; sourceTree = "<group>"; };
+		6CE2D999193F6E87006627CF /* ANAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANAppDelegate.m; sourceTree = "<group>"; };
+		6CE2D9A3193F6E87006627CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CE2D9A4193F6E87006627CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6CE2D9AC193F76DF006627CF /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		6CE2D9AD193F76DF006627CF /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		6CE2D9AE193F76DF006627CF /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		6CE2D9AF193F76DF006627CF /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		6CE2D9B0193F76DF006627CF /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		6CE2D9B1193F76DF006627CF /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		6CE2D9B2193F76DF006627CF /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		6CE2D9B3193F76DF006627CF /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		6CE2D9B4193F76DF006627CF /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		6CE2D9BD193F7EE9006627CF /* ANLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANLoginViewController.h; sourceTree = "<group>"; };
+		6CE2D9BE193F7EE9006627CF /* ANLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANLoginViewController.m; sourceTree = "<group>"; };
+		6CE2D9C1193F80D7006627CF /* ANDrawerBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANDrawerBaseVC.h; sourceTree = "<group>"; };
+		6CE2D9C2193F80D7006627CF /* ANDrawerBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANDrawerBaseVC.m; sourceTree = "<group>"; };
+		6CE2D9C5193F9218006627CF /* MMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMNavigationController.h; sourceTree = "<group>"; };
+		6CE2D9C6193F9218006627CF /* MMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNavigationController.m; sourceTree = "<group>"; };
+		6CE2D9C8193F9232006627CF /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		6CE2D9C9193F9232006627CF /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CE2D959193F6E05006627CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE2D962193F6E05006627CF /* CoreGraphics.framework in Frameworks */,
+				6CE2D964193F6E05006627CF /* UIKit.framework in Frameworks */,
+				6CE2D960193F6E05006627CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE2D97D193F6E05006627CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE2D982193F6E05006627CF /* XCTest.framework in Frameworks */,
+				6CE2D984193F6E05006627CF /* UIKit.framework in Frameworks */,
+				6CE2D983193F6E05006627CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C0FBC831940C25F003A97DF /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				6C0FBC841940C289003A97DF /* ANUtility.h */,
+				6C0FBC851940C289003A97DF /* ANUtility.m */,
+				6C0FBC871940C2A6003A97DF /* ANConstants.h */,
+				6C0FBC881940C2A6003A97DF /* ANConstants.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		6C0FBC8B1940C637003A97DF /* LeftMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6C0FBC8C1940C675003A97DF /* ANLeftMainMenuVC.h */,
+				6C0FBC8D1940C675003A97DF /* ANLeftMainMenuVC.m */,
+				6C2C70721942138B00DFFEF9 /* ANLeftMainMenuTableViewCell.h */,
+				6C2C70731942138B00DFFEF9 /* ANLeftMainMenuTableViewCell.m */,
+				6C2C70741942138B00DFFEF9 /* ANLeftMainMenuTableViewCell.xib */,
+			);
+			path = LeftMenu;
+			sourceTree = "<group>";
+		};
+		6C2C7077194223E600DFFEF9 /* AppImages */ = {
+			isa = PBXGroup;
+			children = (
+				6C2C70781942240A00DFFEF9 /* LeftMainMenu.xcassets */,
+			);
+			path = AppImages;
+			sourceTree = "<group>";
+		};
+		6CE2D953193F6E05006627CF = {
+			isa = PBXGroup;
+			children = (
+				6CE2D965193F6E05006627CF /* Alfanote */,
+				6CE2D987193F6E05006627CF /* AlfanoteTests */,
+				6CE2D95E193F6E05006627CF /* Frameworks */,
+				6CE2D95D193F6E05006627CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CE2D95D193F6E05006627CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CE2D95C193F6E05006627CF /* Alfanote.app */,
+				6CE2D980193F6E05006627CF /* AlfanoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CE2D95E193F6E05006627CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CE2D95F193F6E05006627CF /* Foundation.framework */,
+				6CE2D961193F6E05006627CF /* CoreGraphics.framework */,
+				6CE2D963193F6E05006627CF /* UIKit.framework */,
+				6CE2D981193F6E05006627CF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CE2D965193F6E05006627CF /* Alfanote */ = {
+			isa = PBXGroup;
+			children = (
+				6CE2D997193F6E87006627CF /* Classes */,
+				6CE2D99D193F6E87006627CF /* Resources */,
+				6CE2D966193F6E05006627CF /* Supporting Files */,
+			);
+			path = Alfanote;
+			sourceTree = "<group>";
+		};
+		6CE2D966193F6E05006627CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CE2D967193F6E05006627CF /* Alfanote-Info.plist */,
+				6CE2D96B193F6E05006627CF /* main.m */,
+				6CE2D96D193F6E05006627CF /* Alfanote-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CE2D987193F6E05006627CF /* AlfanoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CE2D98D193F6E05006627CF /* AlfanoteTests.m */,
+				6CE2D988193F6E05006627CF /* Supporting Files */,
+			);
+			path = AlfanoteTests;
+			sourceTree = "<group>";
+		};
+		6CE2D988193F6E05006627CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CE2D989193F6E05006627CF /* AlfanoteTests-Info.plist */,
+				6CE2D98A193F6E05006627CF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CE2D997193F6E87006627CF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6CE2D998193F6E87006627CF /* ANAppDelegate.h */,
+				6CE2D999193F6E87006627CF /* ANAppDelegate.m */,
+				6C0FBC831940C25F003A97DF /* Utility */,
+				6CE2D9AB193F76DF006627CF /* MMDrawerController */,
+				6CE2D99A193F6E87006627CF /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6CE2D99A193F6E87006627CF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6C0FBC8B1940C637003A97DF /* LeftMenu */,
+				6CE2D9C0193F80B5006627CF /* DrawerBaseVC */,
+				6CE2D9BC193F7EE9006627CF /* Login */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6CE2D99D193F6E87006627CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C2C7077194223E600DFFEF9 /* AppImages */,
+				6CE2D9A2193F6E87006627CF /* InfoPlist.strings */,
+				6CE2D9A4193F6E87006627CF /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6CE2D9AB193F76DF006627CF /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				6CE2D9C4193F9218006627CF /* SupportinClasses */,
+				6CE2D9AC193F76DF006627CF /* MMDrawerBarButtonItem.h */,
+				6CE2D9AD193F76DF006627CF /* MMDrawerBarButtonItem.m */,
+				6CE2D9AE193F76DF006627CF /* MMDrawerController+Subclass.h */,
+				6CE2D9AF193F76DF006627CF /* MMDrawerController.h */,
+				6CE2D9B0193F76DF006627CF /* MMDrawerController.m */,
+				6CE2D9B1193F76DF006627CF /* MMDrawerVisualState.h */,
+				6CE2D9B2193F76DF006627CF /* MMDrawerVisualState.m */,
+				6CE2D9B3193F76DF006627CF /* UIViewController+MMDrawerController.h */,
+				6CE2D9B4193F76DF006627CF /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		6CE2D9BC193F7EE9006627CF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6CE2D9BD193F7EE9006627CF /* ANLoginViewController.h */,
+				6CE2D9BE193F7EE9006627CF /* ANLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6CE2D9C0193F80B5006627CF /* DrawerBaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				6CE2D9C1193F80D7006627CF /* ANDrawerBaseVC.h */,
+				6CE2D9C2193F80D7006627CF /* ANDrawerBaseVC.m */,
+			);
+			path = DrawerBaseVC;
+			sourceTree = "<group>";
+		};
+		6CE2D9C4193F9218006627CF /* SupportinClasses */ = {
+			isa = PBXGroup;
+			children = (
+				6CE2D9C8193F9232006627CF /* MMExampleDrawerVisualStateManager.h */,
+				6CE2D9C9193F9232006627CF /* MMExampleDrawerVisualStateManager.m */,
+				6CE2D9C5193F9218006627CF /* MMNavigationController.h */,
+				6CE2D9C6193F9218006627CF /* MMNavigationController.m */,
+			);
+			path = SupportinClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CE2D95B193F6E05006627CF /* Alfanote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE2D991193F6E05006627CF /* Build configuration list for PBXNativeTarget "Alfanote" */;
+			buildPhases = (
+				6CE2D958193F6E05006627CF /* Sources */,
+				6CE2D959193F6E05006627CF /* Frameworks */,
+				6CE2D95A193F6E05006627CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alfanote;
+			productName = Alfanote;
+			productReference = 6CE2D95C193F6E05006627CF /* Alfanote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CE2D97F193F6E05006627CF /* AlfanoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE2D994193F6E05006627CF /* Build configuration list for PBXNativeTarget "AlfanoteTests" */;
+			buildPhases = (
+				6CE2D97C193F6E05006627CF /* Sources */,
+				6CE2D97D193F6E05006627CF /* Frameworks */,
+				6CE2D97E193F6E05006627CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CE2D986193F6E05006627CF /* PBXTargetDependency */,
+			);
+			name = AlfanoteTests;
+			productName = AlfanoteTests;
+			productReference = 6CE2D980193F6E05006627CF /* AlfanoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CE2D954193F6E05006627CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = YPK;
+				TargetAttributes = {
+					6CE2D97F193F6E05006627CF = {
+						TestTargetID = 6CE2D95B193F6E05006627CF;
+					};
+				};
+			};
+			buildConfigurationList = 6CE2D957193F6E05006627CF /* Build configuration list for PBXProject "Alfanote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CE2D953193F6E05006627CF;
+			productRefGroup = 6CE2D95D193F6E05006627CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CE2D95B193F6E05006627CF /* Alfanote */,
+				6CE2D97F193F6E05006627CF /* AlfanoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CE2D95A193F6E05006627CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C2C70761942138B00DFFEF9 /* ANLeftMainMenuTableViewCell.xib in Resources */,
+				6CE2D9AA193F6E87006627CF /* Images.xcassets in Resources */,
+				6C2C70791942240A00DFFEF9 /* LeftMainMenu.xcassets in Resources */,
+				6CE2D9A9193F6E87006627CF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE2D97E193F6E05006627CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE2D98C193F6E05006627CF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CE2D958193F6E05006627CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0FBC8E1940C675003A97DF /* ANLeftMainMenuVC.m in Sources */,
+				6CE2D9B7193F76DF006627CF /* MMDrawerVisualState.m in Sources */,
+				6CE2D9BF193F7EE9006627CF /* ANLoginViewController.m in Sources */,
+				6CE2D96C193F6E05006627CF /* main.m in Sources */,
+				6CE2D9C7193F9218006627CF /* MMNavigationController.m in Sources */,
+				6CE2D9C3193F80D7006627CF /* ANDrawerBaseVC.m in Sources */,
+				6CE2D9B8193F76DF006627CF /* UIViewController+MMDrawerController.m in Sources */,
+				6CE2D9B6193F76DF006627CF /* MMDrawerController.m in Sources */,
+				6C0FBC861940C289003A97DF /* ANUtility.m in Sources */,
+				6C0FBC891940C2A6003A97DF /* ANConstants.m in Sources */,
+				6CE2D9B5193F76DF006627CF /* MMDrawerBarButtonItem.m in Sources */,
+				6CE2D9A5193F6E87006627CF /* ANAppDelegate.m in Sources */,
+				6CE2D9CA193F9232006627CF /* MMExampleDrawerVisualStateManager.m in Sources */,
+				6C2C70751942138B00DFFEF9 /* ANLeftMainMenuTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE2D97C193F6E05006627CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE2D98E193F6E05006627CF /* AlfanoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CE2D986193F6E05006627CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CE2D95B193F6E05006627CF /* Alfanote */;
+			targetProxy = 6CE2D985193F6E05006627CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CE2D98A193F6E05006627CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CE2D98B193F6E05006627CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6CE2D9A2193F6E87006627CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CE2D9A3193F6E87006627CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CE2D98F193F6E05006627CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CE2D990193F6E05006627CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CE2D992193F6E05006627CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alfanote/Alfanote-Prefix.pch";
+				INFOPLIST_FILE = "Alfanote/Alfanote-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6CE2D993193F6E05006627CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alfanote/Alfanote-Prefix.pch";
+				INFOPLIST_FILE = "Alfanote/Alfanote-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6CE2D995193F6E05006627CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Alfanote.app/Alfanote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alfanote/Alfanote-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AlfanoteTests/AlfanoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6CE2D996193F6E05006627CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Alfanote.app/Alfanote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alfanote/Alfanote-Prefix.pch";
+				INFOPLIST_FILE = "AlfanoteTests/AlfanoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CE2D957193F6E05006627CF /* Build configuration list for PBXProject "Alfanote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE2D98F193F6E05006627CF /* Debug */,
+				6CE2D990193F6E05006627CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE2D991193F6E05006627CF /* Build configuration list for PBXNativeTarget "Alfanote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE2D992193F6E05006627CF /* Debug */,
+				6CE2D993193F6E05006627CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE2D994193F6E05006627CF /* Build configuration list for PBXNativeTarget "AlfanoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE2D995193F6E05006627CF /* Debug */,
+				6CE2D996193F6E05006627CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CE2D954193F6E05006627CF /* Project object */;
+}
